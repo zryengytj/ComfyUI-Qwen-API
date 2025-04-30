@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": 32,
-      "type": "DisplayText_Zho",
+      "type": "QWenChatApi",
       "pos": [
         -800,
         2120
@@ -38,7 +38,7 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "DisplayText_Zho"
+        "Node name for S&R": "QWenChatApi"
       },
       "widgets_values": [
         "",
@@ -114,7 +114,7 @@
     },
     {
       "id": 10,
-      "type": "QWenVL_API_S_Zho",
+      "type": "QWenChatApi",
       "pos": [
         -800,
         1380
@@ -155,18 +155,18 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "QWenVL_API_S_Zho"
+        "Node name for S&R": "QWenChatApi"
       },
       "widgets_values": [
         "Describe this image",
-        "qwen-vl-plus",
+        "qwen-plus",
         633049644523418,
         "fixed"
       ]
     },
     {
       "id": 29,
-      "type": "QWenVL_API_S_Zho",
+      "type": "QWenChatApi",
       "pos": [
         -800,
         1910
@@ -207,11 +207,11 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "QWenVL_API_S_Zho"
+        "Node name for S&R": "QWenChatApi"
       },
       "widgets_values": [
         "Describe this image",
-        "qwen-vl-max",
+        "qwen-plus-latest",
         633049644523418,
         "fixed"
       ]
@@ -367,7 +367,7 @@
     },
     {
       "id": 13,
-      "type": "DisplayText_Zho",
+      "type": "QWenChatApi",
       "pos": [
         -800,
         1590
@@ -401,7 +401,7 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "DisplayText_Zho"
+        "Node name for S&R": "QWenChatApi"
       },
       "widgets_values": [
         "",

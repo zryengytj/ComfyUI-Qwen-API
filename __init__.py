@@ -20,7 +20,7 @@ with open(os.path.join(os.path.dirname(os.path.realpath(__file__)),"config.json"
     config = json.load(f)
 
 
-from .QwenVL_API_Node import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
+from .QWenChatApi import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
 
 # Combine the dictionaries
 #NODE_CLASS_MAPPINGS = {**NODE_CLASS_MAPPINGS_G}
